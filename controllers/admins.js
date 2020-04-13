@@ -40,7 +40,7 @@ module.exports = function(_, formidable, Group, AWS){
             const newGroup = new Group();
             newGroup.name = req.body.group;
             newGroup.rulesetting = req.body.rulesetting;
-            newGroup.image = req.body.upload;
+            newGroup.image = req.body.theimg;
             console.log('Group before save')
             newGroup.save((err)=> {
                 console.log(err);
