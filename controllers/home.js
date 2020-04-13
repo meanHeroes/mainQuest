@@ -36,7 +36,7 @@ module.exports = function(async, Group, _){
 
                 const rulesettingSort = _.sortBy(res2, '_id');
 
-                res.render('home', {title: 'Meanhero | Home', data: dataChunk, rulesetting: rulesettingSort});
+                res.render('home', {title: 'Meanhero | Home', data: dataChunk, user: req.user, rulesetting: rulesettingSort});
             })
             
         },
