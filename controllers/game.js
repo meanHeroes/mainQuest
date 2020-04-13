@@ -6,7 +6,9 @@ module.exports = function(){
 
         gamePage: function(req,res){
             const name  = req.params.name;
-            res.render('gamechat/game', {title: 'Meanhero - Game', name: name});
+            const user = req.user;
+            console.log(user);
+            res.render('gamechat/game', {title: 'Meanhero - Game', user: user, gameName: name});
         }
     
     }
