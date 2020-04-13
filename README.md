@@ -5,7 +5,7 @@ Chatfunction for online DSA Session and an Charactereditor with xml-Upload.
 ## Getting Started
 
 still in dev
-
+0. since not in gitignore, delete nodes_modules folder befor npm install.
 1. npm install
 2. npm nodemon server
 
