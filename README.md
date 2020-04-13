@@ -32,6 +32,8 @@ Not production ready atm, will be deployed on AWS and Heroku.
 
 ## Authors
 
+David Vennemeier
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
