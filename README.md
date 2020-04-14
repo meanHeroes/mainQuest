@@ -42,3 +42,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Thomas and Niklas for voicing the need for something like this.
 * Uzochukwu Eddie - with his Udemy Course, which guided me through this.
+
+## Git from visual studio
+bjhhj
